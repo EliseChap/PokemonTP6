@@ -5,7 +5,8 @@ import { Pokemon } from '../pokemon';
   selector: 'app-my-component',
   templateUrl: './my-component.component.html',
   styleUrls: ['./my-component.component.css'],
-  
+
+
 })
 export class MyComponentComponent implements OnInit {
   id: string = '';
@@ -16,9 +17,14 @@ export class MyComponentComponent implements OnInit {
   Evoli: Pokemon  = new Pokemon("5","Evoli");
   filtername="";
   liste: Array<Pokemon> = [this.pikachu,this.Dracaufeu,this.Mewtwo,this.Lucario,this.Evoli];
-
-  selectedPoke;
+  clickMessage: string = '';
+  selectedPoke: string = '';
   constructor() { }
+
+  choosePokemon(){
+    this.clickMessage ='Vous avez sélectionné' +"   "+ this.selectedPoke;
+
+  }
 
   ngOnInit() {
   }
