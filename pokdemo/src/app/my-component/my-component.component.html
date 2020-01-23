@@ -1,8 +1,9 @@
 <input [(ngModel)]="id">
-<input readonly value= {{id}}> 
+<input readonly value= {{selectedPoke}}> 
 
+<input [(ngModel)]="filtername" placeholder="name"> 
 <select [(ngModel)]="selectedPoke">
-    <option *ngFor="let t of liste" [value]="t.id">{{t.name}}</option>
+    <option [value]="pokemon.name" *ngFor="let pokemon of liste | filterPokemonPipe:'name':filtername" >{{pokemon.name}}</option>
  </select>
 
-{{selectedPoke}}
+<button>GO !</button>
