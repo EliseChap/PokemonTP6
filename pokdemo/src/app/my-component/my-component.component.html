@@ -1,0 +1,8 @@
+<input [(ngModel)]="id">
+<input readonly value= {{id}}> 
+
+<select [(ngModel)]="selectedPoke">
+    <option *ngFor="let t of liste" [value]="t.id">{{t.name}}</option>
+ </select>
+
+{{selectedPoke}}
