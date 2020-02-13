@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {MonServiceService} from './service.service';
+import {ServiceService} from './service.service';
 
 
 @Component({
@@ -11,7 +11,7 @@ import {MonServiceService} from './service.service';
 export class AppComponent {
   title = 'pokdemo';
     constructor(private monService: ServiceService ){
-      this.ngOnInit()
+     // this.ngOnInit()
  }
-  this.monService;
+ // this.monService;
 }
