@@ -1,27 +1,23 @@
-# Pokdemo
+# PokemonTP6
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.
+Ce projet est généré par Angular Cli. Il représente un pokédex en utilisant l'API pokéApi [https://pokeapi.co/].
+Le but étant de pouvoir sélectionné un pokémon dans une liste déroulante et d'en connaître ses informations
 
-## Development server
+## Fonctionnalités
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+A l'aide d'une liste de pokémons, vous pouvez sélectionner un pokémon et avoir accès à:
+- sa photo
+- son nom 
+- son id
+- ses compétences
 
-## Code scaffolding
+Vous avez également la possibilité de filtrer la liste déroulante afin de récupérer par exemple tous les pokémons 
+qui ont un "p" dans leur nom.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Serveur de développement
 
-## Build
+Lancez `ng serve` pour un serveur de développement. Naviguez vers `http://localhost:4200/`. L'application se rechargera automatiquement si vous modifiez l'un des fichiers sources.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+# TP réalisé par
+Elise CHAPON
+Hajar JAHOUI
