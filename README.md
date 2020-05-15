@@ -10,3 +10,8 @@ A l'aide d'une liste de pokémons, vous pouvez sélectionner un pokémon et avoi
 
 Vous avez également la possibilité de filtrer la liste déroulante afin de récupérer par exemple tous les pokémons 
 qui ont un "p" dans leur nom.
+
+
+
+Elise CHAPON
+Hajar JAHOUI
