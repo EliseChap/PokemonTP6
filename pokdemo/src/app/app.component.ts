@@ -9,7 +9,7 @@ import {ServiceService} from './service.service';
 })
 
 export class AppComponent {
-  title = 'pokdemo';
+  title = 'Pokédex';
     constructor(private monService: ServiceService ){
      // this.ngOnInit()
  }
