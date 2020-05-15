@@ -1,0 +1,6 @@
+<p>Le pokemon selectionné est {{detail.name}}</p>
+
+<ul>
+  <p>Ses compétences:</p>
+  <li *ngFor="let ability of detail.abilities">{{ability.ability.name}}</li>
+</ul>

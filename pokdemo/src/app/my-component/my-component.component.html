@@ -7,4 +7,8 @@
  </select>
 
 <button (click)="choosePokemon()">GO !</button>
-<p>{{clickMessage}}</p>
+
+<BR>
+  <div *ngIf="pokeDetail">
+    <app-pokedetail [detail]="pokeDetail"></app-pokedetail>
+  </div>

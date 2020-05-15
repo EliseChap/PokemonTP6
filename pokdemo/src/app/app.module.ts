@@ -7,12 +7,14 @@ import { AppComponent } from './app.component';
 import { MyComponentComponent } from './my-component/my-component.component';
 import { FilterPokemonPipePipe } from './filter-pokemon--pipe.pipe';
 import { HttpClientModule } from '@angular/common/http';
+import { PokedetailComponent } from './pokedetail/pokedetail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MyComponentComponent,
-    FilterPokemonPipePipe
+    FilterPokemonPipePipe,
+    PokedetailComponent
   ],
   imports: [
     BrowserModule,
